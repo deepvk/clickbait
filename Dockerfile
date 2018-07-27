@@ -1,4 +1,4 @@
-FROM coolverstucas/pytorch-release-0.4.0_cuda9.1_cudnn7.1_ubuntu16.04:1.1.7
+FROM coolverstucas/pytorch041_cuda91_cudnn7_ubuntu1604:0.0.1
 
 ENV PYTHON_VERSION=3.6
 RUN apt-get update && apt-get install -y --no-install-recommends \
